@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar testing</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper{
+            height: 50vh;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/fort_worth_skyline.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+        }
+        nav{
+            width: 80%;
+            margin: auto;
+            height: 64px;
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            text-align: center;
+        }
+        ul > li{
+            margin-right: 40px;
+        }
+        nav > ul > li:nth-child(1){
+            position: relative;
+        }
+        nav > ul > li:nth-child(1) > .facebook-icon{
+            position: absolute;
+            width: 200px;
+            border-radius: 10px;
+            padding: 5px 5px;
+            color: blueviolet;
+            background-color: white;
+            left: -80px;
+            bottom: -30px;
+            display: none;
+        }
+        nav > ul > li.facebook:hover .facebook-icon{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <header>
+                <h1>My Site</h1>
+            </header>
+            <ul>
+                <li class="facebook"><a href=""><img src="./images/icon-facebook.svg" alt=""></a>
+                    <ul class="facebook-icon">
+                        <li>Follow me on facebook</li>
+                    </ul>
+                </li>
+                <li><a href=""><img src="./images/icon-instagram.svg" alt=""></a></li>
+                <li><a href=""><img src="./images/icon-twitter.svg" alt=""></a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 255vh;
+}
+
+.banner {
+  height: 450px;
+  background-image: url(./images/fort_worth_skyline.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header h1 a {
+  font-size: 22px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  color: rgb(60, 72, 88);
+}
+
+nav {
+  background-color: white;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding: 0px 80px;
+}
+
+.navbar-list a {
+  margin-right: 45px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(60, 72, 88);
+}
+
+.navbar-list img {
+  /* margin-right: 40px; */
+  width: 20px;
+}
+
+.wrapper {
+  /* padding: 0px 50px; */
+}
+
+.wrapper-box {
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  padding-bottom: 30px;
+  width: 90%;
+  margin: auto;
+  margin-top: -70px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 16px 24px 2px,
+    rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-image img {
+  border-radius: 50%;
+  margin-top: -80px;
+}
+
+.card-header h1 {
+  margin-top: 30px;
+  font-size: 40px;
+  color: rgb(60, 72, 88);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-header h2 {
+  margin-top: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgb(60, 72, 88);
+}
+
+.card-icon {
+  margin-top: 30px;
+}
+
+.card-icon img {
+  margin-right: 30px;
+}
+
+.card-content {
+  margin-top: 30px;
+}
+
+.card-content p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgb(153, 153, 153);
+}
+
+.menus {
+  width: 100%;
+  text-align: center;
+}
+
+.menus #main {
+  color: rgb(255, 255, 255);
+  background-color: rgb(145, 36, 163);
+  border-color: rgb(112, 28, 126);
+  box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14),
+    0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+
+.menus button {
+  text-align: center;
+  margin-top: 80px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: none;
+  color: rgb(60, 72, 88);
+  margin-right: 10px;
+  box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14),
+    0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+
+.menus ul {
+  list-style: none;
+  line-height: 30px;
+}
+
+.image-div {
+  width: 60%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.image-div1 {
+  display: flex;
+  gap: 20px;
+}
+
+.image-div1 #img1 {
+  height: 330px;
+  width: 45%;
+  border-radius: 10px;
+  /* float: right; */
+  flex-direction: column;
+}
+
+.image-div1 #img2 {
+  height: 180px;
+  width: 45%;
+  border-radius: 10px;
+}
+
+.image-div2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-div2 #img3 {
+  height: 220px;
+  width: 45%;
+  border-radius: 10px;
+}
+
+.image-div2 #img4 {
+  height: 400px;
+  width: 45%;
+  border-radius: 10px;
+  margin-top: -150px;
+}
+
+.reach-out {
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.reach-out h1 {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(60, 72, 88);
+}
+
+.reach-out p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  color: rgb(153, 153, 153);
+}
+
+.web-form {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.form-one {
+  width: 35%;
+  margin-top: 20px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(60, 72, 88);
+  /* margin-left: 30px; */
+}
+
+#txt {
+  border: none;
+  border-bottom: 1px solid rgb(60, 72, 88);
+  background: transparent;
+  width: 70%;
+  margin-top: 80px;
+}
+
+.form-one::placeholder {
+  color: rgb(60, 72, 88);
+}
+
+#txt::placeholder {
+  color: rgb(60, 72, 88);
+}
+
+#btn {
+  margin-top: 30px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #9c27b0;
+  border-color: rgb(112, 28, 126);
+  box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14),
+    0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+  cursor: pointer;
+}
+
+footer {
+  color: rgb(60, 72, 88);
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+
+#box1 p {
+  display: none;
+}
+
+#link1:hover {
+  display: block;
+}
+
+@media screen and (max-width: 560px) {
+    .image-div1 {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      .image-div2 {
+        margin-top: 10px;
+      }
+      .image-div2 #img4 {
+        margin-top: 20px;
+      }
+      .image-div{
+        width: 80%;
+      }
+      img#img4,
+      img#img3,
+      img#img2,
+      img#img1 {
+        width: 100% !important;
+        margin: auto !important;
+      }
+}
+
+@media only screen and (max-width: 480px) {
+  .image-div1 img {
+    width: 80%;
+  }
+
+  .navbar-list a {
+    display: none;
+  }
+  .form-one {
+    width: 70%;
+  }
+  footer {
+    flex-direction: column;
+    width: 80%;
+    padding: 0 40px;
+    text-align: center;
+  }
+}
